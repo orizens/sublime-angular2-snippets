@@ -1,0 +1,8 @@
+<snippet>
+
+    <tabTrigger>ng2-routerLink</tabTrigger>
+    <content><![CDATA[
+      [routerLink]=\['${routeName}']\
+    ]]></content>
+    <description>Angular 2 routerLink snippet</description>
+  </snippet>

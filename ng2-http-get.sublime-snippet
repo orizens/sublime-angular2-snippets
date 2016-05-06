@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+return this.http.get('${1:url}')",
+	.map((res: Response) => res.json()${2});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ng2-http-get</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js, source.ts</scope>
+	<description>Angular 2 Http.get snippet</description>
+</snippet>

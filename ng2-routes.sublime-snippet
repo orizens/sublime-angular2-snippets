@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+@Routes([
+    { path: '/${1:path}', component: ${2:component}Component }${3}
+])
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ng2-routes</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js, source.ts</scope>
+	<description>Angular 2 route config snippet</description>
+</snippet>

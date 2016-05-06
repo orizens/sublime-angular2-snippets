@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+import { Component } from '@angular/core';
+import { HTTP_PROVIDERS } from '@angular/http';
+import { Routes, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router';
+import 'rxjs/Rx'; // load the full rxjs
+
+@Component({
+	moduleId: module.id,
+	selector: '${1:selector}',
+	templateUrl: '${2:name}.component.html',
+	directives: [ROUTER_DIRECTIVES],
+	providers: [
+	  HTTP_PROVIDERS,
+	  ROUTER_PROVIDERS
+	]
+})
+@Routes([
+	${3}
+])
+export class AppComponent {}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ng2-component-root</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js, source.ts</scope>
+	<description>Angular 2 App root component snippet</description>
+</snippet>
