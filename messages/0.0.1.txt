@@ -1,0 +1,7 @@
+Thanks for using the Angular2 Snippets inspired by John Papa.
+
+
+---------------
+Initial Release in 0.0.1
+
+- includes snippets from john's papa visual studio code snippets for angular 2
