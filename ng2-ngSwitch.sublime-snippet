@@ -2,10 +2,11 @@
 
     <tabTrigger>ng2-ngSwitch</tabTrigger>
     <content><![CDATA[
-      <div [ngSwitch]=\${conditionExpression}\>,
-        <div *ngSwitchWhen=\${expression}\>${output}</div>,
-        <div *ngSwitchDefault>${output2}</div>,
+      <div [ngSwitch]="${1:conditionExpression}">
+        <div *ngSwitchWhen="${2:expression}">${3:output}</div>
+        <div *ngSwitchDefault>${4:output2}</div>
       </div>
     ]]></content>
+    <scope>source.ts, source.html, source.js</scope>
     <description>Angular 2 ngSwitch snippet</description>
   </snippet>

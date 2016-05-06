@@ -2,7 +2,8 @@
 
     <tabTrigger>ng2-ngModel</tabTrigger>
     <content><![CDATA[
-      [(ngModel)]=\${binding}\
+      [(ngModel)]="${1:binding}"
     ]]></content>
+    <scope>source.ts, source.html, source.js</scope>
     <description>Angular 2 ngModel snippet</description>
   </snippet>
