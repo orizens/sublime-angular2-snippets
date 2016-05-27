@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-return this.http.get('${1:url}')",
+return this.http.get('${1:url}')
 	.map((res: Response) => res.json()${2});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
